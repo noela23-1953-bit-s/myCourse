@@ -11,7 +11,7 @@ public class Main {
 
         for(int var7 = 0; var7 < var6; ++var7) {
             Car car = var5[var7];
-            car.displayDetails();
+            car.showDetails();
             car.startEngine();
             System.out.println();
         }
