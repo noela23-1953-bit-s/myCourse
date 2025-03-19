@@ -1,7 +1,7 @@
 public class SportsCar extends Car {
     int topSpeed;
 
-    public SportsCar(String brand, double price, int topSpeed) {
+    private SportsCar(String brand, double price, int topSpeed) {
         super(brand, price);
         this.topSpeed = topSpeed;
     }
