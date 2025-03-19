@@ -1,6 +1,7 @@
 public class Sedan extends Car {
         
         int seatingCapacity;
+        String luxuryLevel;
 
         public Sedan(String brand, double price, int seatingCapacity) {
             super(brand, price);
