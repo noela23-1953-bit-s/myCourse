@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Car Sedan = new Sedan("Mercedes E-class", 120000.0, 7);
+        Car Sedan = new Sed("Mercedes E-class", 120000.0, 7);
         Car Electric = new ElectricCar("Tesla model 3", 510000.0, 85);
         Car SportCar = new SportsCar("Ferrari F8", 37000.0, 420);
         Car[] cars = new Car[]{Sedan, Electric, SportCar};
