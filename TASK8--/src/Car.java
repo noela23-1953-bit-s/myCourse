@@ -7,7 +7,7 @@ public abstract class Car {
         this.price = price;
     }
 
-    public abstract void displayDetails();
+   
 
     public void startEngine() {
         System.out.println(this.brand + " Engine started");
