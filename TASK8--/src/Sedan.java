@@ -1,4 +1,5 @@
 public class Sedan extends Car {
+        
         int seatingCapacity;
 
         public Sedan(String brand, double price, int seatingCapacity) {
