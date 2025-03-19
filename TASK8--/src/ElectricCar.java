@@ -3,7 +3,7 @@ public class ElectricCar extends Car{
 
         public ElectricCar(String brand, double price, int batteryCapacity) {
             super(brand, price);
-            this.batteryCapacity = batteryCapacity;
+            super.batteryCapacity = batteryCapacity;
         }
 
         public void displayDetails() {
