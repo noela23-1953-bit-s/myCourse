@@ -1,5 +1,5 @@
 public class ElectricCar extends Car{
-        int batteryCapacity;
+        static int batteryCapacity;
 
         public ElectricCar(String brand, double price, int batteryCapacity) {
             super(brand, price);
