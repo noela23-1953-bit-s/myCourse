@@ -1,5 +1,5 @@
 public abstract class Car {
-    String brand;
+   protected String brand;
     double price;
 
     public Car(String brand, double price) {
